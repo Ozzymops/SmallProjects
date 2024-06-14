@@ -1,0 +1,1 @@
+Converts images in subfolders of current folder to .webp, renaming them to numbers e.g. 0001.webp
