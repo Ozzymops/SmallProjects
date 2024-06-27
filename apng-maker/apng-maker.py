@@ -3,7 +3,7 @@ import sys
 from PIL import Image
 from apng import APNG
 
-accepted_filetypes = ('.png', '.jpg', '.jpeg')
+accepted_filetypes = ('.png')
 
 # Command line argument, delay in ms
 if (len(sys.argv) > 1):
@@ -15,11 +15,9 @@ else:
 frames = []
 
 for image in os.listdir(".\\frames\\"):
-    if image.endswith(accepted_filetypes):  
+    if image.endswith(accepted_filetypes):
         frames.append(os.getcwd() + "\\frames\\" + image)
 
 # Convert to apng
-Convert(frames, "result")
-
-def Convert(frames, filename):
-    APNG.from_files(frames, delay=int(delay)).save(filename + ".png")
+filename = (os.path.splitext(os.path.basename(frames[0]))[0]).split('_', 1)[0]
+APNG.from_files(frames, delay=int(delay)).save(filename + ".png")
