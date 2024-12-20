@@ -1,1 +1,1 @@
-python image-converter.py png
+python image-converter.py webp

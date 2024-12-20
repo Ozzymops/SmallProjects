@@ -2,7 +2,7 @@ import os
 import sys
 from PIL import Image
 
-accepted_filetypes = ('.png', '.jpg', '.jpeg', '.webp')
+accepted_filetypes = ('.png', '.jpg', '.jpeg', '.webp', '.JPG')
 format = "webp"
 
 if (len(sys.argv) > 1):
