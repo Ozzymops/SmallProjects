@@ -60,7 +60,7 @@ def rename_files(dir, whitelist, target):
 # Start
 def main(argv):
     root = os.getcwd()
-    whitelist = ('.png', '.jpg', '.JPG', '.jpeg', '.webp')
+    whitelist = ('.png', '.jpg', '.JPG', '.jpeg', '.webp', '.pngjpg')
 
     target = input("Target filetype: ")
     target_sub = input("Subdirs? 'Y' for yes, or anything else for no. ")
