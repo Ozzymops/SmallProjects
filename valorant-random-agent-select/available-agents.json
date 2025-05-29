@@ -1,0 +1,134 @@
+{
+	"agents": [
+		{
+			"name": "Astra",
+			"role": "Controller",
+			"owned": false
+		},
+		{
+			"name": "Breach",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Brimstone",
+			"role": "Controller",
+			"owned": true
+		},
+		{
+			"name": "Chamber",
+			"role": "Sentinel",
+			"owned": true
+		},
+		{
+			"name": "Clove",
+			"role": "Controller",
+			"owned": false
+		},
+		{
+			"name": "Cypher",
+			"role": "Sentinel",
+			"owned": true
+		},
+		{
+			"name": "Deadlock",
+			"role": "Sentinel",
+			"owned": true
+		},
+		{
+			"name": "Fade",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Gekko",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Harbor",
+			"role": "Controller",
+			"owned": false
+		},
+		{
+			"name": "Iso",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "Jett",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "KAY/O",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Killjoy",
+			"role": "Sentinel",
+			"owned": true
+		},
+		{
+			"name": "Neon",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "Omen",
+			"role": "Controller",
+			"owned": true
+		},
+		{
+			"name": "Phoenix",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "Raze",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "Reyna",
+			"role": "Duelist",
+			"owned": true
+		},
+		{
+			"name": "Sage",
+			"role": "Sentinel",
+			"owned": true
+		},
+		{
+			"name": "Skye",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Sova",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Tejo",
+			"role": "Initiator",
+			"owned": true
+		},
+		{
+			"name": "Viper",
+			"role": "Controller",
+			"owned": true
+		},
+		{
+			"name": "Waylay",
+			"role": "Duelist",
+			"owned": false
+		},
+		{
+			"name": "Yoru",
+			"role": "Duelist",
+			"owned": true
+		}
+	]
+}
